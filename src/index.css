@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Hind Siliguri', system-ui, -apple-system, sans-serif;
+    --font-serif-bn: 'Noto Serif Bengali', 'Hind Siliguri', serif;
+    --font-serif-en: 'Cormorant Garamond', 'Noto Serif Bengali', serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-bn {
+  font-family: var(--font-serif-bn);
+}
+
+.font-serif-en {
+  font-family: var(--font-serif-en);
+}
+
+/* Festive diamond-triangle mosaic border inspired by traditional Bengali wedding cards */
+.wedding-mosaic-border {
+  background-image:
+    linear-gradient(135deg, #c83232 25%, transparent 25%),
+    linear-gradient(225deg, #eab308 25%, transparent 25%),
+    linear-gradient(45deg, #157347 25%, transparent 25%),
+    linear-gradient(315deg, #d97706 25%, #fff9ef 25%);
+  background-position: 12px 0, 12px 0, 0 0, 0 0;
+  background-size: 24px 24px;
+  background-repeat: repeat;
+}
+
+/* Night-sky twinkling stars animation */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-twinkle {
+    animation: none;
+    opacity: 0.8;
+  }
+}

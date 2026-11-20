@@ -1,0 +1,6 @@
+{
+  "name": "মেহেবুব ও সারিকা · Wedding Invitation Hub",
+  "description": "মেহেবুব ও সারিকার শুভ বিয়ের ইন্টারেক্টিভ ডিজিটাল আমন্ত্রণপত্র — ৩০ মার্চ ২০৩০। এনিমেটেড বিয়ের যাত্রা, ফটো গ্যালারি, কাউন্টডাউন টাইমার, ওয়েডিং লোকেশন ম্যাপ, মিউজিক প্লেয়ার ও আরএসভিপি।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
