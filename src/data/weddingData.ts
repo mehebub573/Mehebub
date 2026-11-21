@@ -100,7 +100,7 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'couple-veranda',
-    src: '/src/assets/images/gallery_couple_portrait_1795185285046.jpg',
+    src: '/src/assets/images/Photo4.jpeg',
     alt: {
       bn: 'ঐতিহ্যবাহী বিয়ের সাজে মেহেবুব ও সারিকা',
       en: 'Mehebub and Sarika in traditional Bangladeshi wedding attire',
@@ -115,7 +115,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'holud-courtyard',
-    src: '/src/assets/images/gallery_holud_marigold_1795185284661.jpg',
+    src: '/src/assets/images/Photo3.jpeg',
     alt: {
       bn: 'গাঁদা ফুল ও হলুদে সাজানো গায়ে হলুদের আসর',
       en: 'Marigold garlands and turmeric bowls at Gaye Holud ceremony',
@@ -130,7 +130,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'mehndi-jasmine',
-    src: '/src/assets/images/gallery_henna_hands_1795185284499.jpg',
+    src: '/src/assets/images/Photo2.jpeg',
     alt: {
       bn: 'মেহেদি রাঙা হাতে বেলি ফুলের মালা ও সোনার বালা',
       en: 'Bridal mehndi hands holding fresh jasmine blossoms',
@@ -145,7 +145,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'evening-pavilion',
-    src: '/src/assets/images/gallery_evening_reception_1795185284139.jpg',
+    src: '/src/assets/images/Photo1.jpeg',
     alt: {
       bn: 'রাতের আলোকসজ্জায় সাজানো বিয়ের মণ্ডপ ও অতিথি আঙিনা',
       en: 'Evening wedding reception pavilion lit with fairy lights and floral arches',
